@@ -12,6 +12,7 @@ import static org.hamcrest.Matchers.equalTo;
 public class ReposGetAnonymousHappyPath extends BaseTest {
     @Test
     public void ReposGetAnonymousHappyPathTest() throws Exception{
+        requestWithCredentialsSpec.
         when().
                 get("/users/facebook/repos").
                 then().
