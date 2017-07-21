@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="29897" started-at="2017-07-21T17:22:27Z" finished-at="2017-07-21T17:22:56Z">
+    <groups>
+    </groups>
+    <test name="RESTAssuredStandalone" duration-ms="29897" started-at="2017-07-21T17:22:27Z" finished-at="2017-07-21T17:22:56Z">
+      <class name="com.jaemzware.BranchesGetAuthenticatedHappyPath">
+        <test-method status="PASS" signature="initPath()[pri:0, instance:com.jaemzware.BranchesGetAuthenticatedHappyPath@2acf57e3]" name="initPath" is-config="true" duration-ms="1" started-at="2017-07-21T11:22:42Z" finished-at="2017-07-21T11:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPath -->
+        <test-method status="PASS" signature="BranchesGetAuthenticatedHappyPathTest()[pri:0, instance:com.jaemzware.BranchesGetAuthenticatedHappyPath@2acf57e3]" name="BranchesGetAuthenticatedHappyPathTest" duration-ms="10124" started-at="2017-07-21T11:22:42Z" finished-at="2017-07-21T11:22:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BranchesGetAuthenticatedHappyPathTest -->
+      </class> <!-- com.jaemzware.BranchesGetAuthenticatedHappyPath -->
+      <class name="com.jaemzware.UserNegNotAuthorized">
+        <test-method status="PASS" signature="initPath()[pri:0, instance:com.jaemzware.UserNegNotAuthorized@6fadae5d]" name="initPath" is-config="true" duration-ms="1" started-at="2017-07-21T11:22:54Z" finished-at="2017-07-21T11:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPath -->
+        <test-method status="PASS" signature="UserNegNotAuthorizedTest()[pri:0, instance:com.jaemzware.UserNegNotAuthorized@6fadae5d]" name="UserNegNotAuthorizedTest" duration-ms="403" started-at="2017-07-21T11:22:54Z" finished-at="2017-07-21T11:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserNegNotAuthorizedTest -->
+      </class> <!-- com.jaemzware.UserNegNotAuthorized -->
+      <class name="com.jaemzware.UserPostHappyPath">
+        <test-method status="PASS" signature="initPath()[pri:0, instance:com.jaemzware.UserPostHappyPath@3d24753a]" name="initPath" is-config="true" duration-ms="0" started-at="2017-07-21T11:22:55Z" finished-at="2017-07-21T11:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPath -->
+        <test-method status="PASS" signature="UserPostHappyPathTest()[pri:0, instance:com.jaemzware.UserPostHappyPath@3d24753a]" name="UserPostHappyPathTest" duration-ms="1393" started-at="2017-07-21T11:22:55Z" finished-at="2017-07-21T11:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserPostHappyPathTest -->
+      </class> <!-- com.jaemzware.UserPostHappyPath -->
+      <class name="com.jaemzware.ReposGetAuthenticatedHappyPath">
+        <test-method status="PASS" signature="initPath()[pri:0, instance:com.jaemzware.ReposGetAuthenticatedHappyPath@96532d6]" name="initPath" is-config="true" duration-ms="1" started-at="2017-07-21T11:22:53Z" finished-at="2017-07-21T11:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPath -->
+        <test-method status="PASS" signature="ReposGetAuthenticatedHappyPathTest()[pri:0, instance:com.jaemzware.ReposGetAuthenticatedHappyPath@96532d6]" name="ReposGetAuthenticatedHappyPathTest" duration-ms="500" started-at="2017-07-21T11:22:53Z" finished-at="2017-07-21T11:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReposGetAuthenticatedHappyPathTest -->
+      </class> <!-- com.jaemzware.ReposGetAuthenticatedHappyPath -->
+      <class name="com.jaemzware.UserGetHappyPath">
+        <test-method status="PASS" signature="initPath()[pri:0, instance:com.jaemzware.UserGetHappyPath@7a0ac6e3]" name="initPath" is-config="true" duration-ms="0" started-at="2017-07-21T11:22:54Z" finished-at="2017-07-21T11:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPath -->
+        <test-method status="PASS" signature="UserGetHappyPathTest()[pri:0, instance:com.jaemzware.UserGetHappyPath@7a0ac6e3]" name="UserGetHappyPathTest" duration-ms="422" started-at="2017-07-21T11:22:54Z" finished-at="2017-07-21T11:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserGetHappyPathTest -->
+      </class> <!-- com.jaemzware.UserGetHappyPath -->
+      <class name="com.jaemzware.ReposGetAnonymousHappyPath">
+        <test-method status="PASS" signature="initPath()[pri:0, instance:com.jaemzware.ReposGetAnonymousHappyPath@71be98f5]" name="initPath" is-config="true" duration-ms="0" started-at="2017-07-21T11:22:52Z" finished-at="2017-07-21T11:22:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPath -->
+        <test-method status="PASS" signature="ReposGetAnonymousHappyPathTest()[pri:0, instance:com.jaemzware.ReposGetAnonymousHappyPath@71be98f5]" name="ReposGetAnonymousHappyPathTest" duration-ms="753" started-at="2017-07-21T11:22:52Z" finished-at="2017-07-21T11:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReposGetAnonymousHappyPathTest -->
+      </class> <!-- com.jaemzware.ReposGetAnonymousHappyPath -->
+      <class name="com.jaemzware.ReposNegPostAnonymous">
+        <test-method status="PASS" signature="initPath()[pri:0, instance:com.jaemzware.ReposNegPostAnonymous@506e6d5e]" name="initPath" is-config="true" duration-ms="0" started-at="2017-07-21T11:22:53Z" finished-at="2017-07-21T11:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPath -->
+        <test-method status="PASS" signature="ReposNegPostAnonymousTest()[pri:0, instance:com.jaemzware.ReposNegPostAnonymous@506e6d5e]" name="ReposNegPostAnonymousTest" duration-ms="395" started-at="2017-07-21T11:22:53Z" finished-at="2017-07-21T11:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReposNegPostAnonymousTest -->
+      </class> <!-- com.jaemzware.ReposNegPostAnonymous -->
+      <class name="com.jaemzware.BranchesGetAnonymousHappyPath">
+        <test-method status="PASS" signature="initPath()[pri:0, instance:com.jaemzware.BranchesGetAnonymousHappyPath@1e643faf]" name="initPath" is-config="true" duration-ms="724" started-at="2017-07-21T11:22:27Z" finished-at="2017-07-21T11:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPath -->
+        <test-method status="PASS" signature="BranchesGetAnonymousHappyPathTest()[pri:0, instance:com.jaemzware.BranchesGetAnonymousHappyPath@1e643faf]" name="BranchesGetAnonymousHappyPathTest" duration-ms="14796" started-at="2017-07-21T11:22:27Z" finished-at="2017-07-21T11:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BranchesGetAnonymousHappyPathTest -->
+      </class> <!-- com.jaemzware.BranchesGetAnonymousHappyPath -->
+      <class name="com.jaemzware.UsersGetSpecificUserHappyPath">
+        <test-method status="PASS" signature="initPath()[pri:0, instance:com.jaemzware.UsersGetSpecificUserHappyPath@17f6480]" name="initPath" is-config="true" duration-ms="1" started-at="2017-07-21T11:22:56Z" finished-at="2017-07-21T11:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPath -->
+        <test-method status="PASS" signature="UsersGetSpecificUserHappyPathTest()[pri:0, instance:com.jaemzware.UsersGetSpecificUserHappyPath@17f6480]" name="UsersGetSpecificUserHappyPathTest" duration-ms="363" started-at="2017-07-21T11:22:56Z" finished-at="2017-07-21T11:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsersGetSpecificUserHappyPathTest -->
+      </class> <!-- com.jaemzware.UsersGetSpecificUserHappyPath -->
+    </test> <!-- RESTAssuredStandalone -->
+  </suite> <!-- Default Suite -->
+</testng-results>

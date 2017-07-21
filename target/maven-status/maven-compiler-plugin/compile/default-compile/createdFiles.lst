@@ -1,0 +1,10 @@
+com/jaemzware/UserPostHappyPath.class
+com/jaemzware/ReposGetAuthenticatedHappyPath.class
+com/jaemzware/UsersGetSpecificUserHappyPath.class
+com/jaemzware/ReposNegPostAnonymous.class
+com/jaemzware/BranchesGetAuthenticatedHappyPath.class
+com/jaemzware/UserNegNotAuthorized.class
+com/jaemzware/BranchesGetAnonymousHappyPath.class
+com/jaemzware/UserGetHappyPath.class
+com/jaemzware/BaseTest.class
+com/jaemzware/ReposGetAnonymousHappyPath.class
