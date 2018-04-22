@@ -19,7 +19,7 @@ import static io.restassured.RestAssured.given;
 public class BaseTest
 {
     protected String username = "jimarasim";
-    protected String password = "Git8Hub";
+    protected String password = "";
 
     protected RequestSpecification requestWithCredentialsSpec;
     protected ResponseSpecification responseBasicSpec;
