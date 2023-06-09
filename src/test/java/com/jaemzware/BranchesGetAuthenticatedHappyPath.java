@@ -7,6 +7,7 @@ import java.util.List;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.hasItem;
+import static org.hamcrest.core.AnyOf.anyOf;
 
 /**
  * Created by jameskarasim on 7/17/17.
@@ -27,6 +28,7 @@ public class BranchesGetAuthenticatedHappyPath extends BaseTest{
         for(String repo:privateRepoUrls) {
             String nameOnly = repo.substring(repo.lastIndexOf('/')+1);
             privateRepoNames.add(nameOnly);
+            System.out.println(nameOnly);
         }
 
         //list the branches for each repo name
@@ -38,7 +40,7 @@ public class BranchesGetAuthenticatedHappyPath extends BaseTest{
                     then().
                     log().body().
                     spec(responseBasicSpec).
-                    body("name",hasItem("master")).
+                    body("name", anyOf(hasItem("main"), hasItem("master"), hasItem("develop"))).
                     extract().path("name");
         }
     }

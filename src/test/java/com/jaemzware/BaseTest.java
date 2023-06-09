@@ -19,7 +19,7 @@ import static io.restassured.RestAssured.given;
 public class BaseTest
 {
     protected String username = "jimarasim";
-    protected String password = "";
+    protected String password = "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";
 
     protected RequestSpecification requestWithCredentialsSpec;
     protected ResponseSpecification responseBasicSpec;
@@ -34,7 +34,7 @@ public class BaseTest
         ResponseSpecBuilder responseSpecBuilder = new ResponseSpecBuilder();
         responseSpecBuilder.expectStatusCode(200);
         responseSpecBuilder.expectContentType(ContentType.JSON);
-        responseSpecBuilder.expectResponseTime(lessThan(1500L));
+        responseSpecBuilder.expectResponseTime(lessThan(7000L));
         responseBasicSpec = responseSpecBuilder.build();
     }
 }

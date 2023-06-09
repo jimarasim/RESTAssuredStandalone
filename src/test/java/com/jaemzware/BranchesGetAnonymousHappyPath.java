@@ -16,7 +16,7 @@ import static org.hamcrest.Matchers.hasItem;
 public class BranchesGetAnonymousHappyPath extends BaseTest {
     @Test
     public void BranchesGetAnonymousHappyPathTest() throws Exception{
-        //get the url for all of facebooks public repos
+        //get the url for all of jimarasim public repos
         List<String> publicReposUrl = requestWithCredentialsSpec.when().
                 get("/users/facebook/repos").
                 then().
@@ -39,7 +39,7 @@ public class BranchesGetAnonymousHappyPath extends BaseTest {
                     get("/repos/facebook/{repoName}/branches").
                     then().
                     spec(responseBasicSpec).
-                    body("name",hasItem("master")).
+                    body("name",hasItem("main")).
                     extract().path("name");
         }
 

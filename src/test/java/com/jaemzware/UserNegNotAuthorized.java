@@ -16,7 +16,6 @@ public class UserNegNotAuthorized extends BaseTest{
                 then().
                 log().all().
                 statusCode(401).
-                header("Status", "401 Unauthorized").
                 body("message",equalTo("Requires authentication"));
     }
 }

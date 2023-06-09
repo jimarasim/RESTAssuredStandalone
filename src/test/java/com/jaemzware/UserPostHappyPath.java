@@ -7,6 +7,16 @@ import static org.hamcrest.Matchers.equalTo;
 /**
  * Created by jameskarasim on 7/16/17.
  */
+
+
+
+
+
+//NOTE THIS WILL FAIL BECAUSE YOU CAN NO LONGER POST TO BLOG FROM THE API
+
+
+
+
 public class UserPostHappyPath extends BaseTest {
     @Test
     public void UserPostHappyPathTest() throws Exception{
@@ -21,7 +31,7 @@ public class UserPostHappyPath extends BaseTest {
                 path("blog");
 
         //set blog url to something different
-        String setBlogUrl = currentBlogUrl.equals("https://seattlerules.com")?"http://jaemzware.com":"https://seattlerules.com";
+        String setBlogUrl = currentBlogUrl.equals("https://stuffedanimalwar.com")?"http://jaemzware.com":"https://stuffedanimalwar.com";
 
         //post and verify the blog url was set
         requestWithCredentialsSpec.
