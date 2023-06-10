@@ -28,11 +28,11 @@
           <include name="BranchesGetAuthenticatedHappyPathTest"/>
         </methods>
       </class> <!-- com.jaemzware.BranchesGetAuthenticatedHappyPath -->
-      <class name="com.jaemzware.UserPostHappyPath">
+      <class name="com.jaemzware.StuffedAnimalWarPostHappyPath">
         <methods>
           <include name="UserPostHappyPathTest"/>
         </methods>
-      </class> <!-- com.jaemzware.UserPostHappyPath -->
+      </class> <!-- com.jaemzware.StuffedAnimalWarPostHappyPath -->
       <class name="com.jaemzware.BranchesGetAnonymousHappyPath">
         <methods>
           <include name="BranchesGetAnonymousHappyPathTest"/>

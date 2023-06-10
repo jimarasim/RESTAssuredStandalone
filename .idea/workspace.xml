@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33770f17-c791-45df-aa8c-e4b5491f9731" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jaemzware/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jaemzware/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jaemzware/BranchesGetAnonymousHappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jaemzware/BranchesGetAnonymousHappyPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jaemzware/BranchesGetAuthenticatedHappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jaemzware/BranchesGetAuthenticatedHappyPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jaemzware/UserNegNotAuthorized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jaemzware/UserNegNotAuthorized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jaemzware/UserPostHappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jaemzware/UserPostHappyPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jaemzware/UserPostHappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jaemzware/StuffedAnimalWarPostHappyPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/RESTAssuredStandalone.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/RESTAssuredStandalone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/RESTAssuredStandalone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/RESTAssuredStandalone.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.jaemzware.UserPostHappyPath.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.jaemzware.UserPostHappyPath.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +181,7 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="TestNG.UsersGetSpecificUserHappyPath.UsersGetSpecificUserHappyPathTest">
+  <component name="RunManager" selected="TestNG.StuffedAnimalWarPostHappyPath.StuffedAnimalWarPostHappyPathTest">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -257,7 +265,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserNegNotAuthorized.UserNegNotAuthorizedTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StuffedAnimalWarPostHappyPath" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAssuredStandalone" />
       <extension name="coverage">
         <pattern>
@@ -266,26 +274,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jaemzware" />
-      <option name="MAIN_CLASS_NAME" value="com.jaemzware.UserNegNotAuthorized" />
-      <option name="METHOD_NAME" value="UserNegNotAuthorizedTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserPostHappyPath" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RESTAssuredStandalone" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jaemzware.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jaemzware" />
-      <option name="MAIN_CLASS_NAME" value="com.jaemzware.UserPostHappyPath" />
+      <option name="MAIN_CLASS_NAME" value="com.jaemzware.StuffedAnimalWarPostHappyPath" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
@@ -294,7 +283,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserPostHappyPath.UserPostHappyPathTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StuffedAnimalWarPostHappyPath.StuffedAnimalWarPostHappyPathTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAssuredStandalone" />
       <extension name="coverage">
         <pattern>
@@ -303,7 +292,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jaemzware" />
-      <option name="MAIN_CLASS_NAME" value="com.jaemzware.UserPostHappyPath" />
+      <option name="MAIN_CLASS_NAME" value="com.jaemzware.StuffedAnimalWarPostHappyPath" />
+      <option name="METHOD_NAME" value="StuffedAnimalWarPostHappyPathTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StuffedAnimalWarPostHappyPath.UserPostHappyPathTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RESTAssuredStandalone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jaemzware.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jaemzware" />
+      <option name="MAIN_CLASS_NAME" value="com.jaemzware.StuffedAnimalWarPostHappyPath" />
       <option name="METHOD_NAME" value="UserPostHappyPathTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -351,19 +359,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.UserPostHappyPath.UserPostHappyPathTest" />
       <item itemvalue="TestNG.ReposGetAuthenticatedHappyPath.ReposGetAuthenticatedHappyPathTest" />
-      <item itemvalue="TestNG.UserNegNotAuthorized.UserNegNotAuthorizedTest" />
-      <item itemvalue="TestNG.UserPostHappyPath" />
       <item itemvalue="TestNG.UsersGetSpecificUserHappyPath.UsersGetSpecificUserHappyPathTest" />
+      <item itemvalue="TestNG.StuffedAnimalWarPostHappyPath.UserPostHappyPathTest" />
+      <item itemvalue="TestNG.StuffedAnimalWarPostHappyPath" />
+      <item itemvalue="TestNG.StuffedAnimalWarPostHappyPath.StuffedAnimalWarPostHappyPathTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.StuffedAnimalWarPostHappyPath.StuffedAnimalWarPostHappyPathTest" />
         <item itemvalue="TestNG.UsersGetSpecificUserHappyPath.UsersGetSpecificUserHappyPathTest" />
         <item itemvalue="TestNG.ReposGetAuthenticatedHappyPath.ReposGetAuthenticatedHappyPathTest" />
-        <item itemvalue="TestNG.UserPostHappyPath.UserPostHappyPathTest" />
-        <item itemvalue="TestNG.UserPostHappyPath" />
-        <item itemvalue="TestNG.UserNegNotAuthorized.UserNegNotAuthorizedTest" />
+        <item itemvalue="TestNG.StuffedAnimalWarPostHappyPath.UserPostHappyPathTest" />
+        <item itemvalue="TestNG.StuffedAnimalWarPostHappyPath" />
       </list>
     </recent_temporary>
   </component>
@@ -476,16 +484,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/jaemzware/UserPostHappyPath.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

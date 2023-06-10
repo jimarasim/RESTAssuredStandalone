@@ -32,7 +32,7 @@ Caused by: java.lang.ClassNotFoundException: io.restassured.RestAssured
   <testcase name="@BeforeClass initPath" time="0.0" classname="com.jaemzware.UserNegNotAuthorized">
     <skipped/>
   </testcase> <!-- @BeforeClass initPath -->
-  <testcase name="@BeforeClass initPath" time="0.0" classname="com.jaemzware.UserPostHappyPath">
+  <testcase name="@BeforeClass initPath" time="0.0" classname="com.jaemzware.StuffedAnimalWarPostHappyPath">
     <skipped/>
   </testcase> <!-- @BeforeClass initPath -->
   <testcase name="@BeforeClass initPath" time="0.0" classname="com.jaemzware.UsersGetSpecificUserHappyPath">
@@ -59,7 +59,7 @@ Caused by: java.lang.ClassNotFoundException: io.restassured.RestAssured
   <testcase name="UserNegNotAuthorizedTest" time="0.0" classname="com.jaemzware.UserNegNotAuthorized">
     <skipped/>
   </testcase> <!-- UserNegNotAuthorizedTest -->
-  <testcase name="UserPostHappyPathTest" time="0.0" classname="com.jaemzware.UserPostHappyPath">
+  <testcase name="UserPostHappyPathTest" time="0.0" classname="com.jaemzware.StuffedAnimalWarPostHappyPath">
     <skipped/>
   </testcase> <!-- UserPostHappyPathTest -->
   <testcase name="UsersGetSpecificUserHappyPathTest" time="0.0" classname="com.jaemzware.UsersGetSpecificUserHappyPath">

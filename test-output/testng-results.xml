@@ -26,16 +26,16 @@
           </reporter-output>
         </test-method> <!-- UserNegNotAuthorizedTest -->
       </class> <!-- com.jaemzware.UserNegNotAuthorized -->
-      <class name="com.jaemzware.UserPostHappyPath">
-        <test-method status="SKIP" signature="initPath()[pri:0, instance:com.jaemzware.UserPostHappyPath@d70c109]" name="initPath" is-config="true" duration-ms="0" started-at="2017-07-21T11:23:12Z" finished-at="2017-07-21T11:23:12Z">
+      <class name="com.jaemzware.StuffedAnimalWarPostHappyPath">
+        <test-method status="SKIP" signature="initPath()[pri:0, instance:com.jaemzware.StuffedAnimalWarPostHappyPath@d70c109]" name="initPath" is-config="true" duration-ms="0" started-at="2017-07-21T11:23:12Z" finished-at="2017-07-21T11:23:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPath -->
-        <test-method status="SKIP" signature="UserPostHappyPathTest()[pri:0, instance:com.jaemzware.UserPostHappyPath@d70c109]" name="UserPostHappyPathTest" duration-ms="0" started-at="2017-07-21T11:23:12Z" finished-at="2017-07-21T11:23:12Z">
+        <test-method status="SKIP" signature="UserPostHappyPathTest()[pri:0, instance:com.jaemzware.StuffedAnimalWarPostHappyPath@d70c109]" name="UserPostHappyPathTest" duration-ms="0" started-at="2017-07-21T11:23:12Z" finished-at="2017-07-21T11:23:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserPostHappyPathTest -->
-      </class> <!-- com.jaemzware.UserPostHappyPath -->
+      </class> <!-- com.jaemzware.StuffedAnimalWarPostHappyPath -->
       <class name="com.jaemzware.ReposGetAuthenticatedHappyPath">
         <test-method status="SKIP" signature="ReposGetAuthenticatedHappyPathTest()[pri:0, instance:com.jaemzware.ReposGetAuthenticatedHappyPath@5a42bbf4]" name="ReposGetAuthenticatedHappyPathTest" duration-ms="0" started-at="2017-07-21T11:23:12Z" finished-at="2017-07-21T11:23:12Z">
           <reporter-output>

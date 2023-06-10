@@ -11,7 +11,7 @@
       <class name="com.jaemzware.ReposNegPostAnonymous"/>
       <class name="com.jaemzware.UserGetHappyPath"/>
       <class name="com.jaemzware.UserNegNotAuthorized"/>
-      <class name="com.jaemzware.UserPostHappyPath"/>
+      <class name="com.jaemzware.StuffedAnimalWarPostHappyPath"/>
       <class name="com.jaemzware.UsersGetSpecificUserHappyPath"/>
     </classes>
   </test> <!-- RESTAssuredStandalone -->
