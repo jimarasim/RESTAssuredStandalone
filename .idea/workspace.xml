@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33770f17-c791-45df-aa8c-e4b5491f9731" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jaemzware/StuffedAnimalWarAllPasswords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jaemzware/UserPostHappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jaemzware/StuffedAnimalWarPostHappyPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/RESTAssuredStandalone.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/RESTAssuredStandalone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/RESTAssuredStandalone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/RESTAssuredStandalone.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.jaemzware.UserPostHappyPath.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.jaemzware.UserPostHappyPath.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +168,12 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="TestNG.StuffedAnimalWarPostHappyPath.StuffedAnimalWarPostHappyPathTest">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jaemzware" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.StuffedAnimalWarAllPasswords.StuffedAnimalWarPostHappyPathTest">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -265,7 +257,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StuffedAnimalWarPostHappyPath" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StuffedAnimalWarAllPasswords.StuffedAnimalWarPostHappyPathTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAssuredStandalone" />
       <extension name="coverage">
         <pattern>
@@ -274,8 +266,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jaemzware" />
-      <option name="MAIN_CLASS_NAME" value="com.jaemzware.StuffedAnimalWarPostHappyPath" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.jaemzware.StuffedAnimalWarAllPasswords" />
+      <option name="METHOD_NAME" value="StuffedAnimalWarPostHappyPathTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -362,16 +355,16 @@
       <item itemvalue="TestNG.ReposGetAuthenticatedHappyPath.ReposGetAuthenticatedHappyPathTest" />
       <item itemvalue="TestNG.UsersGetSpecificUserHappyPath.UsersGetSpecificUserHappyPathTest" />
       <item itemvalue="TestNG.StuffedAnimalWarPostHappyPath.UserPostHappyPathTest" />
-      <item itemvalue="TestNG.StuffedAnimalWarPostHappyPath" />
       <item itemvalue="TestNG.StuffedAnimalWarPostHappyPath.StuffedAnimalWarPostHappyPathTest" />
+      <item itemvalue="TestNG.StuffedAnimalWarAllPasswords.StuffedAnimalWarPostHappyPathTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.StuffedAnimalWarAllPasswords.StuffedAnimalWarPostHappyPathTest" />
         <item itemvalue="TestNG.StuffedAnimalWarPostHappyPath.StuffedAnimalWarPostHappyPathTest" />
         <item itemvalue="TestNG.UsersGetSpecificUserHappyPath.UsersGetSpecificUserHappyPathTest" />
         <item itemvalue="TestNG.ReposGetAuthenticatedHappyPath.ReposGetAuthenticatedHappyPathTest" />
         <item itemvalue="TestNG.StuffedAnimalWarPostHappyPath.UserPostHappyPathTest" />
-        <item itemvalue="TestNG.StuffedAnimalWarPostHappyPath" />
       </list>
     </recent_temporary>
   </component>
