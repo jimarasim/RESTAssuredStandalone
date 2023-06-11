@@ -13,7 +13,7 @@ import static org.hamcrest.Matchers.lessThan;
 public class UsersGetSpecificUserHappyPath extends BaseTest {
     @Test
     public void UsersGetSpecificUserHappyPathTest(){
-        when().
+        requestWithCredentialsSpec.when().
                 get("/users/jimarasim").
                 then().
                 log().all().

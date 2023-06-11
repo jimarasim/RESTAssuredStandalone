@@ -6,8 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.request;
-import static io.restassured.RestAssured.when;
 import static org.hamcrest.Matchers.hasItem;
 
 /**

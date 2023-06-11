@@ -1,4 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.371 sec - in TestSuite
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.341 s <<< FAILURE! - in TestSuite
+UserNegNotAuthorizedTest(com.jaemzware.UserNegNotAuthorized)  Time elapsed: 0.145 s  <<< FAILURE!
+groovy.lang.GroovyRuntimeException: 
+could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.
+Expected status code <401> but was <200>.
+] reason: java.lang.IllegalAccessException: class org.codehaus.groovy.reflection.CachedConstructor cannot access a member of class java.lang.AssertionError (in module java.base) with modifiers "private"
+	at com.jaemzware.UserNegNotAuthorized.UserNegNotAuthorizedTest(UserNegNotAuthorized.java:18)
+

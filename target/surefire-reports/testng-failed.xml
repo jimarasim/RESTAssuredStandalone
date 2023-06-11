@@ -1,14 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
-  <test name="Surefire test(failed)">
+<suite name="Failed suite [Default Suite]" verbose="0">
+  <test name="RESTAssuredStandalone(failed)">
     <classes>
+      <class name="com.jaemzware.UserGetHappyPath">
+        <methods>
+          <include name="initPath"/>
+        </methods>
+      </class> <!-- com.jaemzware.UserGetHappyPath -->
+      <class name="com.jaemzware.StuffedAnimalWarPostHappyPath">
+        <methods>
+          <include name="initPath"/>
+        </methods>
+      </class> <!-- com.jaemzware.StuffedAnimalWarPostHappyPath -->
+      <class name="com.jaemzware.ReposGetAuthenticatedHappyPath">
+        <methods>
+          <include name="initPath"/>
+        </methods>
+      </class> <!-- com.jaemzware.ReposGetAuthenticatedHappyPath -->
+      <class name="com.jaemzware.StuffedAnimalWarAllPasswords">
+        <methods>
+          <include name="initPath"/>
+        </methods>
+      </class> <!-- com.jaemzware.StuffedAnimalWarAllPasswords -->
       <class name="com.jaemzware.UsersGetSpecificUserHappyPath">
         <methods>
-          <include name="UsersGetSpecificUserHappyPathTest"/>
           <include name="initPath"/>
         </methods>
       </class> <!-- com.jaemzware.UsersGetSpecificUserHappyPath -->
+      <class name="com.jaemzware.BranchesGetAnonymousHappyPath">
+        <methods>
+          <include name="initPath"/>
+        </methods>
+      </class> <!-- com.jaemzware.BranchesGetAnonymousHappyPath -->
+      <class name="com.jaemzware.ReposNegPostAnonymous">
+        <methods>
+          <include name="initPath"/>
+        </methods>
+      </class> <!-- com.jaemzware.ReposNegPostAnonymous -->
+      <class name="com.jaemzware.UserNegNotAuthorized">
+        <methods>
+          <include name="UserNegNotAuthorizedTest"/>
+          <include name="initPath"/>
+        </methods>
+      </class> <!-- com.jaemzware.UserNegNotAuthorized -->
+      <class name="com.jaemzware.BranchesGetAuthenticatedHappyPath">
+        <methods>
+          <include name="initPath"/>
+        </methods>
+      </class> <!-- com.jaemzware.BranchesGetAuthenticatedHappyPath -->
+      <class name="com.jaemzware.ReposGetAnonymousHappyPath">
+        <methods>
+          <include name="initPath"/>
+        </methods>
+      </class> <!-- com.jaemzware.ReposGetAnonymousHappyPath -->
     </classes>
-  </test> <!-- Surefire test(failed) -->
-</suite> <!-- Failed suite [Surefire suite] -->
+  </test> <!-- RESTAssuredStandalone(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

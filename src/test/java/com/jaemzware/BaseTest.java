@@ -19,7 +19,7 @@ import static io.restassured.RestAssured.given;
 public class BaseTest
 {
     protected String username = "jimarasim";
-    protected String password = "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";
+    protected String password = ""; //this is your password key
 
     protected RequestSpecification requestWithCredentialsSpec;
     protected ResponseSpecification responseBasicSpec;

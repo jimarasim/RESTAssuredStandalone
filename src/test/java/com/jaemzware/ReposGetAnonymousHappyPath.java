@@ -2,7 +2,7 @@ package com.jaemzware;
 
 import org.testng.annotations.Test;
 
-import static io.restassured.RestAssured.when;
+import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
 
 

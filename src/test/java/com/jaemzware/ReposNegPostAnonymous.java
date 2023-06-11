@@ -13,7 +13,7 @@ import static org.hamcrest.Matchers.equalTo;
 public class ReposNegPostAnonymous extends BaseTest {
     @Test
     public void ReposNegPostAnonymousTest(){
-        given()
+        requestWithCredentialsSpec
                 .contentType("application/json").
         when().
                 body("{\"newrepo\":\"newrepo\"").

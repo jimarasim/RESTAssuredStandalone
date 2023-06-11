@@ -3,15 +3,15 @@
 <suite name="Default Suite">
   <test name="RESTAssuredStandalone">
     <classes>
-      <class name="com.jaemzware.BaseTest"/>
       <class name="com.jaemzware.BranchesGetAnonymousHappyPath"/>
       <class name="com.jaemzware.BranchesGetAuthenticatedHappyPath"/>
       <class name="com.jaemzware.ReposGetAnonymousHappyPath"/>
       <class name="com.jaemzware.ReposGetAuthenticatedHappyPath"/>
       <class name="com.jaemzware.ReposNegPostAnonymous"/>
+      <class name="com.jaemzware.StuffedAnimalWarAllPasswords"/>
+      <class name="com.jaemzware.StuffedAnimalWarPostHappyPath"/>
       <class name="com.jaemzware.UserGetHappyPath"/>
       <class name="com.jaemzware.UserNegNotAuthorized"/>
-      <class name="com.jaemzware.StuffedAnimalWarPostHappyPath"/>
       <class name="com.jaemzware.UsersGetSpecificUserHappyPath"/>
     </classes>
   </test> <!-- RESTAssuredStandalone -->

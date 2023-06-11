@@ -2,7 +2,7 @@ package com.jaemzware;
 
 import org.testng.annotations.Test;
 
-import static io.restassured.RestAssured.when;
+import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
 
 /**
@@ -11,7 +11,7 @@ import static org.hamcrest.Matchers.equalTo;
 public class UserNegNotAuthorized extends BaseTest{
     @Test
     public void UserNegNotAuthorizedTest() throws Exception{
-        when().
+        given().when().
                 get("/user").
                 then().
                 log().all().
